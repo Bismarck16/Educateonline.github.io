@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación Online - Matemáticas</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        /* Estilos del encabezado */
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Estilos de los enlaces de navegación */
+        .nav-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        .nav-links a {
+            color: #fff;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            font-size: 14px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            background-color: #fff;
+            color: #3498db;
+        }
+        
+        /* Estilos de la sección de materias */
+        .materia-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .materia-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 40px);
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+        }
+        
+        .materia-card img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        
+        .materia-card h4 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: #3498db;
+        }
+        
+        #info-matematicas {
+            background-color: #3498db;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            margin: 20px;
+            text-align: justify;
+            line-height: 1.6;
+            color: #fff;
+            width: 80%;
+            margin: 20px auto;
+        }
+        
+        #info-matematicas h4 {
+            font-size: 1.8rem;
+            margin: 0 0 10px;
+        }
+
+        /* Estilos para subtemas */
+        .subtemas {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 100%;
+            margin-top: 40px;
+        }
+        
+        .subtema-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            text-align: left;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .subtema-card h4 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: #3498db;
+        }
+        
+        .subtema-card p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="imagen1.png" alt="">
+            <h1>Bienvenido a Educación Online</h1>
+            <p>Descubre nuestras materias y expande tu conocimiento.</p>
+            <div class="nav-links">
+                <a href="#">Inicio</a>
+                <a href="/materias/matematicas.html">Volver a matematicas</a>
+                <a href="#">Quiénes Somos</a>
+                <a href="#">Más Información</a>
+            </div>
+        </div>
+    </header>
+    <div id="info-matematicas">
+        <h4>Sucesiones en Matemáticas</h4>
+        <p>En matemáticas, una sucesión es una lista ordenada de números en la que cada número se llama "término" de la sucesión. Estos términos siguen un patrón o una regla específica, y cada término en la sucesión está asociado con un índice que indica su posición en la lista.</p>
+        <p>Por ejemplo, considera la sucesión de números naturales: 1, 2, 3, 4, 5, ... En esta sucesión, el primer término es 1 (índice 1), el segundo término es 2 (índice 2), el tercer término es 3 (índice 3), y así sucesivamente. La sucesión sigue el patrón de aumentar en una unidad en cada paso.</p>
+        <p>Las sucesiones pueden ser finitas o infinitas. Una sucesión finita tiene un número limitado de términos, mientras que una sucesión infinita continúa indefinidamente.</p>
+    </div>
+
+    <div class="subtemas">
+        <div class="subtema-card">
+            <h4>Sucesiones Aritméticas</h4>
+            <p>En las sucesiones aritméticas, la diferencia entre dos términos consecutivos es constante. Cada término se obtiene sumando una constante fija llamada "diferencia" al término anterior. Esto crea una progresión en la que cada término se desplaza en la misma cantidad en relación con el anterior.</p>
+            <p>Fórmula general del término en la posición \(n\): \(a_n = a_1 + (n - 1) \cdot d\)</p>
+        </div>
+        
+        <div class="subtema-card">
+            <h4>Sucesiones Geométricas</h4>
+            <p>En las sucesiones geométricas, cada término se obtiene multiplicando un factor constante llamado "razón" por el término anterior. Esto crea una progresión en la que cada término es el producto del término anterior por la razón.</p>
+            <p>Fórmula general del término en la posición \(n\): \(a_n = a_1 \cdot r^{(n - 1)}\)</p>
+        </div>
+        
+        <div class="subtema-card">
+            <h4>Sucesión de Fibonacci</h4>
+            <p>La sucesión de Fibonacci es una serie especial en la que cada término es la suma de los dos términos anteriores. Comienza con los números 0 y 1, y luego cada término es la suma de los dos términos previos. Estas sucesiones están relacionadas con diversos fenómenos naturales y patrones geométricos, y tienen aplicaciones en matemáticas y otros campos.</p>
+            <p>Fórmula general del término en la posición \(n\): \(F_n = F_{n-1} + F_{n-2}\) donde \(F_1 = 0\) y \(F_2 = 1\)</p>
+        </div>
+        
+        <div class="subtema-card">
+            <h4>Sucesión Cuadrática</h4>
+            <p>En las sucesiones cuadráticas, cada término se obtiene utilizando una fórmula cuadrática en función del término anterior. Esto genera una progresión en la que los términos aumentan o disminuyen en función de una fórmula cuadrática. Estas sucesiones están relacionadas con ecuaciones cuadráticas y tienen propiedades geométricas interesantes.</p>
+            <p>Fórmula general del término en la posición \(n\): \(a_n = n^2\)</p>
+        </div>
+        <div class="subtema-card">
+            <h4>Sucesiones Armónicas</h4>
+            <p>En las sucesiones armónicas, cada término es el inverso del número natural correspondiente. Estas sucesiones están relacionadas con la suma armónica y se utilizan en análisis matemático y física para modelar situaciones en las que hay variaciones inversamente proporcionales.</p>
+            <p>Fórmula general del término en la posición \(n\): \(a_n = \frac{1}{n}\)</p>
+        </div>
+
+        <div class="subtema-card">
+            <h4>Sucesiones Aleatorias</h4>
+            <p>En las sucesiones aleatorias, los términos se generan utilizando un proceso aleatorio. Estas sucesiones no siguen un patrón predecible y se utilizan en estadísticas, probabilidad y modelado de sistemas complejos donde hay incertidumbre.</p>
+            <p>Fórmula general: No hay una fórmula determinística para su generación.</p>
+        </div>
+
+        <div class="subtema-card">
+            <h4>Sucesiones Constantes</h4>
+            <p>En las sucesiones constantes, todos los términos son iguales. Estas sucesiones no muestran variación y su valor permanece constante a lo largo de la secuencia.</p>
+            <p>Fórmula general del término en la posición \(n\): \(a_n = c\) (donde \(c\) es una constante)</p>
+        </div>
+
+        <div class="subtema-card">
+            <h4>Sucesiones Prima</h4>
+            <p>En las sucesiones prima, cada término es un número primo. Los números primos son aquellos que solo tienen dos divisores: 1 y ellos mismos. Estas sucesiones están relacionadas con la teoría de números y tienen propiedades únicas y fascinantes.</p>
+            <p>Fórmula general: No hay una fórmula simple para generar todos los números primos.</p>
+        </div>
+
+        <div class="subtema-card">
+            <h4>Sucesiones de Potencias</h4>
+            <p>En las sucesiones de potencias, cada término es una potencia de un número base. Estas sucesiones crecen de manera exponencial y son fundamentales en el análisis matemático y en campos como la física y la ingeniería.</p>
+            <p>Fórmula general del término en la posición \(n\): \(a_n = b^n\) (donde \(b\) es la base)</p>
+        </div>
+
+        <div class="subtema-card">
+            <h4>Sucesiones Recursivas</h4>
+            <p>En las sucesiones recursivas, cada término se define en función de términos anteriores. Estas sucesiones pueden tener reglas complejas que se basan en valores previos de la misma sucesión. Ejemplos incluyen la sucesión de Fibonacci y la sucesión de Lucas, donde cada término depende de los términos anteriores en la secuencia.</p>
+            <p>Fórmula general: Depende de la regla específica de recursión para cada sucesión.</p>
+        </div>
+    </div>
+</body>
+        </div>
+    </div>
+</body>
+</html>
+   </head>
+
+<body>
+    
+</body>
+</html>

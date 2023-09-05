@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de la página">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Educación Online - Matemáticas</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        /* Estilos del encabezado */
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Estilos de los enlaces de navegación */
+        .nav-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        .nav-links a {
+            color: #fff;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            font-size: 14px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            background-color: #fff;
+            color: #3498db;
+        }
+        
+        /* Estilos de la sección de materias */
+        .materia-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .materia-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 40px);
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+        }
+        
+        .materia-card img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        
+        .materia-card h4 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: #3498db;
+        }
+        
+        #info-matematicas {
+            background-color: #3498db;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            margin: 20px;
+            text-align: justify;
+            line-height: 1.6;
+            color: #fff;
+            width: 80%;
+            margin: 20px auto;
+        }
+        
+        #info-matematicas h4 {
+            font-size: 1.8rem;
+            margin: 0 0 10px;
+        }
+
+        /* Estilos para subtemas */
+        .subtemas {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 100%;
+            margin-top: 40px;
+        }
+        
+        .subtema-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            text-align: left;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .subtema-card h4 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: #3498db;
+        }
+        
+        .subtema-card p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="imagen1.png" alt="">
+            <h1>Bienvenido a Educación Online</h1>
+            <p>Descubre nuestras materias y expande tu conocimiento.</p>
+            <div class="nav-links">
+                <a href="#">Inicio</a>
+                <a href="/materias/quimica.html">Volver a Química</a>
+                <a href="#">Quiénes Somos</a>
+                <a href="#">Más Información</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="info-matematicas">
+            <h4>Hidrocarburos cíclicos</h4>
+            <p>Son hidrocarburos de cadena cerrada. Los ciclos también pueden presentar insaturaciones.</p>
+            <p>Los hidrocarburos cíclicos se nombran igual que los hidrocarburos (alcanos, alquenos o alquinos) del mismo número de átomos de carbono, pero anteponiendo el prefijo "ciclo-".</p>
+            <img src="/imagenes/1.jpeg" alt="">
+            <ul>
+                <li>Si el ciclo tiene varios sustituyentes se numeran de forma que reciban los localizadores más bajos, y se ordenan por orden alfabético. En caso de que haya varias opciones decidirá el orden de preferencia alfabético de los radicales.</li>
+                <img src="/imagenes/2.jpeg" alt="">
+                <li>En el caso de anillos con insaturaciones, los carbonos se numeran de modo que dichos enlaces tengan los números localizadores más bajos.</li>
+                <img src="/imagenes/3.jpeg" alt="">
+                <li>Si el compuesto cíclico tiene cadenas laterales más o menos extensas, conviene nombrarlo como derivado de una cadena lateral. En estos casos, los hidrocarburos cíclicos se nombran como radicales con las terminaciones "-il", "-enil", o "-inil".</li>
+                <img src="/imagenes/4.jpeg" alt="">
+            </ul>
+        </section>
+        <section class="subtemas">
+            <div class="subtema-card">
+                <h4>Hidrocarburos nafténicos</h4>
+                <p>Los hidrocarburos nafténicos son hidrocarburos cíclicos formados por una o varias moléculas saturadas. Su fórmula general es CnH2n. También reciben el nombre de naftenos, bencenos hidrogenados o cicloparafinas.Los hidrocarburos nafténicos más comunes son: el ciclopropano, el ciclobutano, el ciclopentano y el ciclohexano. Los aromáticos, cuya denominación hace referencia a su característico olor, son hidrocarburos polinucleados; entre ellos se encuentra: el benceno, el tolueno, el naftaleno, el antraceno y el fluoreno.</p>
+                <img src="/imagenes/naftenicos.jpeg" alt="">
+                
+                
+            </div>
+            <div class="subtema-card">
+                <h4>Hidrocarburos aromáticos</h4>
+                <p>Son compuestos químicos orgánicos y cíclicos, que se caracterizan principalmente por tener una deslocalización de sus electrones en los enlaces π, lo que les confiere una gran estabilidad.Los principales compuestos aromáticos que se obtienen del petróleo son el benceno, tolueno y xilenos, y en menor medida, naftaleno y antraceno.</p>
+                <img src="/imagenes/aromaticos.jpeg" alt="">
+                <h4>Ejemplo</h4>
+                <p>Nombra los siguientes compuestos cíclicos, teniendo en cuenta el hidrocarburo de cadena con el que se están comparando</p>
+                <img src="/imagenes/ejemplos.jpeg" alt="">
+            </div>
+            <div class="subtema-card">
+                <h4>Hidrocarburos alifáticos cíclicos</h4>
+                <p>Son compuestos químicos orgánicos y cíclicos, que se caracterizan principalmente por tener una deslocalización de sus electrones en los enlaces π, lo que les confiere una gran estabilidad.Los principales compuestos aromáticos que se obtienen del petróleo son el benceno, tolueno y xilenos, y en menor medida, naftaleno y antraceno.Empecemos este apartado, viendo una definición de los hidrocarburos 
+                    alifáticos:
+                    Los hidrocarburos alifáticos son cadenas de carbono de hidrógeno no 
+                    aromáticas. Su fórmula general es CH3-(CH2)n-CH3.</p>
+                <img src="/imagenes/benceno.jpeg" alt="">
+            </div>
+            <div class="subtema-card">
+            <h4>Ejercicios de hidrocarburos cíclicos:</h4>
+            <img src="/imagenes/Ejercicios.jpeg" alt="">
+            <p>
+                <ul>
+                    <li>
+                        a) Ciclobutano: Es una cadena cerrada de cuatro carbonos.
+                    </li>
+                    <li>
+                        b) Metilciclobutano: Es una cadena cerrada de cuatro carbonos con
+                        un grupo metilo (-CH3) en el carbono 1.
+                    </li>
+                    <li>
+                        c) 1-etil-2-metilciclohexano: La molécula es un ciclohexano con un
+                        grupo etilo (-CH2-CH3) como sustituyente en el carbono 1, y un grupo
+                        metilo (-CH3) en el carbono 2.
+                    </li>
+                    <li>
+                        d) Etilciclopentano: Es una cadena cerrada de cinco carbonos con un
+                        grupo etilo (-CH2-CH3) en el carbono 1.
+                    </li>
+                    <li>
+                        e) Ciclopropano: La molécula es una cadena cerrada de 3 carbonos.
+                    </li>
+                    <li>
+                        f) Metilciclopropano: Es una cadena cerrada de tres carbonos con un
+                        grupo metilo (-CH3) en el carbono 1.
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <section id="info-matematicas">
+            <h4>Estructura de los hidrocarburos aromáticos</h4>
+            <p><p>Por su estructura cíclica insaturada también se les llama arenos.
+                La estructura molecular consiste en un armazón de átomos de carbono a los que 
+                se unen los átomos de hidrógeno.</p>
+            <p> Un tipo de compuesto que contiene átomos de hidrógeno y de carbono 
+                dispuestos en una estructura de anillo simétrico de 6 carbonos con enlaces 
+                simples (C-C) y dobles (C=C) alternando alrededor del anillo.</p></p>
+            
+            <img src="/imagenes/estructura" alt="">
+        </section>
+        <section class="subtemas">
+            <div class="subtema-card">
+                <h4>Hidricarburos aromaticos</h4>
+                <p>Los hidrocarburos nafténicos son hidrocarburos cíclicos formados por una o varias moléculas saturadas. <p>Su fórmula general es CnH2n. También reciben el nombre de naftenos, bencenos hidrogenados o cicloparafinas. </p>Los hidrocarburos nafténicos más comunes son: el ciclopropano, el ciclobutano, el ciclopentano y el ciclohexano. Los aromáticos, cuya denominación hace referencia a su característico olor, son hidrocarburos polinucleados; entre ellos se encuentra: el benceno, el tolueno, el naftaleno, el antraceno y el fluoreno.</p>
+                <img src="/imagenes/arozzzz.jpeg" alt="">
+            <div>Manejo de compuestos aromaticos </div>
+            <p>Los hidrocarburos aromáticos están entre las sustancias más importantes, extraídas o 
+                producidas, del petróleo y los minerales del carbono.<p> El benceno es la piedra angular de estos 
+                hidrocarburos y sus aplicaciones, pues de él derivan sinfines de compuestos que se utilizan 
+                como materia prima para la producción de fertilizantes, plásticos, adhesivos, detergentes, 
+                perfumes, medicamentos, etc.</p>
+                El benceno es el representante mas sencillo de los hidrocarburos aromáticos. Tambien se ha 
+                asociado a mutagénesis</p>
+                </div>
+            <div class="subtema-card">
+                <div>Aplicación de estas estructuras químicas</div>
+                <p>Esta sustancia aromatica tiene varias aplicaciones en las industrias, ya que se usa en la 
+                    fabricación de distintos productos como plásticos, nylon y fibras sintéticas.<p>
+                    Sin embargo, se deben considerar distintas medidas para su almacenamiento y usos entre 
+                    ellos se encuentran el uso medio de protección para la manipulación de esta sustancia, ya sea 
+                    en los laboratorios de investigación o en las industrias</p>
+                
+                    <div>Los hidrocarburos aromáticos se encuentran en el medio en el que vivimos</div>
+                    <p>Al benceno se puede encontrar en las emisiones volcánicas y en los incendios forestales así 
+                        como en el petróleo, la gasolina y el humo de los cigarros.<p> Adicionalmente los compuestos 
+                        aromáticos se pueden generar en el contexto de distintos procesos que ocurren en el medio 
+                        ambiente en el que se desarrollan los organismos vivos.</p> Un caso especial de estas sustancias 
+                        son los hidrocarburos policíclicos aromáticos, los que se clasifican en función de la fuente de la 
+                        que se originan.</p>
+                        
+            </div>
+            
+        </div>
+        </section>
+        </section>
+        
+    </main>
+</body>
+</html>

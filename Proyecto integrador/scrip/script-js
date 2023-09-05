@@ -1,0 +1,51 @@
+// Obtén el enlace y el contenedor de información
+const enlaceMatematicas = document.getElementById('enlace-matematicas');
+const informacionMatematicas = document.getElementById('informacion-matematicas');
+
+// Agrega un evento de clic al enlace
+enlaceMatematicas.addEventListener('click', function(event) {
+  event.preventDefault(); // Evita que el enlace redirija a otra página
+  
+  // Aquí puedes cargar o mostrar la información en el contenedor
+  informacionMatematicas.innerHTML = '<p>Esta es la información de Matemáticas.</p>';
+});
+
+materias-js
+const materiasLink = document.getElementById('materias-link');
+const mensajeMaterias = document.getElementById('mensaje-materias');
+
+materiasLink.addEventListener('click', function(event) {
+  event.preventDefault(); // Evita que el enlace redirija a otra página
+  
+  // Verifica si el menú de materias está visible o no
+  if (mensajeMaterias.style.display === 'none') {
+    mensajeMaterias.style.display = 'flex'; // Muestra el menú de materias
+  } 
+});
+
+const volverMaterias = document.getElementById('volver-materias');
+const contenidoHola = document.getElementById('contenido-hola');
+
+volverMaterias.addEventListener('click', function(event) {
+  event.preventDefault(); // Evita que el enlace redirija a otra página
+  
+  // Actualiza el contenido con "Hola"
+  contenidoHola.innerHTML = '<h1>Hola</h1>';
+});
+
+const enlaceInicio = document.getElementById('enlace-inicio');
+
+enlaceInicio.addEventListener('click', function(event) {
+  event.preventDefault(); // Evita que el enlace redirija a otra página
+
+  const contenido = document.getElementById('contenido');
+  contenido.innerHTML = '<h1>Hola</h1>';
+});
+const enlaceMaterias = document.getElementById('enlace-Materias.html');
+
+enlaceMaterias.addEventListener('click', function(event) {
+  event.preventDefault(); // Evita que el enlace redirija a otra página
+
+  const contenido = document.getElementById('contenido');
+  contenido.innerHTML = '<h1></h1>';
+});
